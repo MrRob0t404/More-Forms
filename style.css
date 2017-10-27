@@ -1,0 +1,29 @@
+#submit {
+    display: none;
+}
+
+form {
+    border: 2px solid black;
+    display: inline-block;
+    height: 20em;
+    width: 20em;
+    text-align: center;
+    background-image: url(buissnessFish.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding-right: 40px;
+    margin-left: 40px;
+
+}
+
+section{
+    padding-top: 8em;
+    color: #6f1123;
+}
+input {
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+input:valid {
+    background-color: rgba(0, 128, 0, 0.48);
+}
